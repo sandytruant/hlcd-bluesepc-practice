@@ -1,0 +1,9 @@
+*.ba
+*.bo
+*.o
+*.out
+*.so
+*.cxx
+*.h
+*.v
+*.vcd
