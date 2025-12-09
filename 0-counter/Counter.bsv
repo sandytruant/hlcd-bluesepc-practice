@@ -1,5 +1,3 @@
-package Counter;
-
 interface Counter;
     method Action inc;
     method Bit#(2) read;
@@ -15,4 +13,3 @@ module mkCounter(Counter);
     endmethod
 endmodule 
 
-endpackage

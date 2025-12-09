@@ -1,7 +1,7 @@
 *.ba
 *.bo
 *.o
-*.out
+*out
 *.so
 *.cxx
 *.h

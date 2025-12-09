@@ -1,5 +1,3 @@
-package GCD;
-
 interface GCD;
     method Action start(Bit#(32) a, Bit#(32) b);
     method ActionValue#(Bit#(32)) getResult;
@@ -28,5 +26,3 @@ module mkGCD(GCD);
         return y;
     endmethod
 endmodule
-
-endpackage
