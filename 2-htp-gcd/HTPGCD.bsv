@@ -1,5 +1,3 @@
-package HTPGCD;
-
 interface GCD;
     method Action start(Bit#(32) a, Bit#(32) b);
     method ActionValue#(Bit#(32)) getResult;
@@ -32,6 +30,6 @@ endmodule
 module mkHTPGCD(GCD);
     let gcd0 <- mkGCD;
     let gcd1 <- mkGCD;
-endmodule
 
-endpackage
+    // Implement your design here
+endmodule
