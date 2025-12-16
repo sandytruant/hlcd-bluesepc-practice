@@ -1,9 +1,9 @@
-import GCD::*;
+import HTPGCD::*;
 import Vector::*;
 
 // Batch-test multiple (a, b) pairs sequentially.
 module mkTb();
-    GCD gcd <- mkGCD;
+    GCD gcd <- mkHTPGCD;
 
     Reg#(UInt#(8)) in_idx <- mkReg(0);
     Reg#(UInt#(8)) out_idx <- mkReg(0);
